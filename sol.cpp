@@ -5,7 +5,7 @@ const int N=1000001;
 int32_t main()
 {
     // dahjskcbjkabc
-    cin.tie(NULL),cout.tie(NULL);
+   
     int t;   cin>>t;
     assert(t<=10);
     assert(t>=1);
@@ -16,6 +16,16 @@ int32_t main()
         assert(n<=100000);
         assert(n>=1);
         for(int i=0;i<n;++i){
+            cin>>a[i];
+            assert(a[i]<=1000000);
+            assert(a[i]>0);
+        }
+         for(int i=0;i<n;++i){
+            cin>>a[i];
+            assert(a[i]<=1000000);
+            assert(a[i]>0);
+        }
+         for(int i=0;i<n;++i){
             cin>>a[i];
             assert(a[i]<=1000000);
             assert(a[i]>0);
