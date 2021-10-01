@@ -25,11 +25,7 @@ int32_t main()
             assert(a[i]<=1000000);
             assert(a[i]>0);
         }
-         for(int i=0;i<n;++i){
-            cin>>a[i];
-            assert(a[i]<=1000000);
-            assert(a[i]>0);
-        }
+         
         sort(a,a+n);
         int s=0;
         for(int i=0;i<n;i++)
@@ -39,6 +35,11 @@ int32_t main()
             s+=u;
             for(int j=a[i]+a[i];j<N;j+=a[i])
                 fre[j]++;
+        }
+        for(int i=0;i<n;++i){
+            cin>>a[i];
+            assert(a[i]<=1000000);
+            assert(a[i]>0);
         }
         cout<<s<<"\n";
     }
