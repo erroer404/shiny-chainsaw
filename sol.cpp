@@ -20,12 +20,8 @@ int32_t main()
             assert(a[i]<=1000000);
             assert(a[i]>0);
         }
-         for(int i=0;i<n;++i){
-            cin>>a[i];
-            assert(a[i]<=1000000);
-            assert(a[i]>0);
-        }
          
+         // sasad
         sort(a,a+n);
         int s=0;
         for(int i=0;i<n;i++)
@@ -36,12 +32,17 @@ int32_t main()
             for(int j=a[i]+a[i];j<N;j+=a[i])
                 fre[j]++;
         }
+        assert(n<=100000);
+        assert(n>=1);
         for(int i=0;i<n;++i){
             cin>>a[i];
             assert(a[i]<=1000000);
             assert(a[i]>0);
         }
+        assert(n<=100000);
+        assert(n>=1);
         cout<<s<<"\n";
     }
+    //change 43
     return 0;
 }
