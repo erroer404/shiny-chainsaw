@@ -4,7 +4,7 @@ using namespace std;
 const int N=1000001;
 int32_t main()
 {
-    ios_base::sync_with_stdio(false);
+    // dahjskcbjkabc
     cin.tie(NULL),cout.tie(NULL);
     int t;   cin>>t;
     assert(t<=10);
