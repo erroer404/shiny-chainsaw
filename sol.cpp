@@ -39,10 +39,8 @@ int32_t main()
             assert(a[i]<=1000000);
             assert(a[i]>0);
         }
-        assert(n<=100000);
-        assert(n>=1);
-        cout<<s<<"\n";
+        
     }
-    //change 43
+    //change 1
     return 0;
 }
